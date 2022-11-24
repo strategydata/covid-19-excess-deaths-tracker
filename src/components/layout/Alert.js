@@ -1,9 +1,10 @@
-import {BsFillInfoCircleFill} from "react-icons"
+import {BsFillInfoCircleFill} from "react-icons/bs"
 import React, { useContext } from "react";
+import AlertContext from "../context/alert/alertContext";
 
 const Alert=()=>{
     const alterContext = useContext(AlertContext);
-    const {alert}=AlertContext;
+    const {alert}=alterContext;
     
     return (
         alert !== null && (

@@ -1,5 +1,6 @@
 import React from "react";
-import {GiCat} from "react-icons";
+import {GiCat} from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 const Navbar = ({ icon, title }) => {
 
