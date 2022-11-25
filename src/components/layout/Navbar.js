@@ -20,7 +20,8 @@ const Navbar = ({ title }) => {
                 <li>
                     <Link to='/about'>About</Link>
                 </li>
-            </ul>        </nav>
+            </ul>
+        </nav>
     );
 };
 
