@@ -8,7 +8,9 @@ const Navbar = ({ title }) => {
     return (
         <nav className="navbar bg-primary">
             <h1>
-                <GiCat /> {title}
+                <Link to="/">
+                    <GiCat /> {title}
+                </Link>
             </h1>
             <ul>
                 <li>
@@ -20,7 +22,8 @@ const Navbar = ({ title }) => {
                 <li>
                     <Link to='/about'>About</Link>
                 </li>
-            </ul>        </nav>
+            </ul>
+        </nav>
     );
 };
 
