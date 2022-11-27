@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 const Home = () => {
     <Fragment>
-        <h1>Home </h1>
+        <h1>Home Test</h1>
     </Fragment>
 };
 

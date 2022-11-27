@@ -14,11 +14,10 @@ function App() {
         <div className='container'>
           {/* <Alert /> */}
           <Routes>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/map" component={Map} />
-            {/* <Route exact path="/user/:login" component={User} /> */}
-            <Route path="/404" component={NotFound} />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/map" element={<Map/>}  />
+            <Route path="*" element={<NotFound/>} />
           </Routes>
         </div>
       </div>
