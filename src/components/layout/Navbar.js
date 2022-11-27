@@ -4,6 +4,7 @@ import { GiCat } from "react-icons/gi";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
+
 const MenuLink = ({ children, href, active }) => {
     return (
         <div className="relative flex py-2">
@@ -41,16 +42,16 @@ const Navbar = ({ title }) => {
             </h1>
             <NavigationMenu.Root>
                 <NavigationMenu.List className="flex space-x-2">
-                    <MenuLink href="/" active>
+                    <MenuLink href="/map" active>
                         Live
                     </MenuLink>
-                    <MenuLink href="https://electricitymaps.com/open-source/?utm_source=app.electricitymaps.com&utm_medium=referral">
+                    <MenuLink href="/opensource">
                         Open Source
                     </MenuLink>
-                    <MenuLink href="https://electricitymaps.com/blog/?utm_source=app.electricitymaps.com&utm_medium=referral">
-                        Blog
+                    <MenuLink href="/about">
+                        About
                     </MenuLink>
-                    <MenuLink href="https://electricitymaps.com?utm_source=app.electricitymaps.com&utm_medium=referral">
+                    <MenuLink href="/map">
                         Data
                     </MenuLink>
                 </NavigationMenu.List>
