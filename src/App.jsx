@@ -6,6 +6,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import NotFound from "./components/pages/NotFound";
 import Map from "./components/pages/Map";
+
 function App() {
 
   return (
